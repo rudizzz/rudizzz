@@ -1,0 +1,85 @@
+.header {
+  margin: 15px 0px 15px 0px;
+  background: #fff;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.header .container .logo {
+  float: left;
+}
+
+.header .container .nav {
+  float: right;
+  display: flex;
+  text-decoration: none;
+}
+
+.header .container .nav li {
+  float: right;
+  display: flex;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.header .container .nav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.body {
+  font-family: "Overpass", arial, serif;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-family: "Chivo", arial, serif;
+}
+
+.intro {
+  height: 600px;
+  background-color: #dfeeea;
+}
+
+.services {
+  padding: 100px 0px 100px 0px;
+  position: relative;
+}
+
+.services .container .row .services-bg {
+}
+
+.services-bg {
+  height: 450px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-text {
+  font-size: 30px;
+  /* position: absolute; */
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 0px 134px 0px 134px;
+}
+
+.portofolio {
+  padding: 100px 0px 100px 0px;
+}

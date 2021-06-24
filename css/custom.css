@@ -1,7 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: "Chivo", "Overpass", "sans-serif", "arial";
+}
+
 html {
   scroll-behavior: smooth;
-  font-size: 100%;
 }
+
+/* .container {
+  scroll-behavior: smooth;
+  scroll-snap-align: y mandatory;
+}
+
+section {
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
+} */
 
 .header {
   margin: 15px 0px 15px 0px;
